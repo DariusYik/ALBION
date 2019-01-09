@@ -1,0 +1,23 @@
+{
+  "name": "albion",
+  "version": "1.0.0",
+  "description": "ALBION Adventure Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grimtekk/ALBION.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grimtekk/ALBION/issues"
+  },
+  "homepage": "https://github.com/grimtekk/ALBION#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}

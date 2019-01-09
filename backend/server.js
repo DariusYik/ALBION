@@ -9,7 +9,7 @@ const app = express();
 const router = express.Router();
 
 // this is our MongoDB database
-const dbRoute = "mongodb://jelo:a9bc839993@ds151382.mlab.com:51382/jelotest";
+const dbRoute = "mongodb://dyik:j%40cK13@cluster0-shard-00-00-29ga5.mongodb.net:27017,cluster0-shard-00-01-29ga5.mongodb.net:27017,cluster0-shard-00-02-29ga5.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true";
 
 // connects our back end code with the database
 mongoose.connect(
